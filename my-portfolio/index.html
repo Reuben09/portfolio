@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Reuben portfolio</title>
+
+        <!-- font awesome icons cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+        <!-- style.css -->
+        <link rel='stylesheet' href='styles.css'>
+    </head>
+    <body>
+        <div class="overrall-container">
+            <header class="header-container">
+                <nav>
+                    <div class="brand">Reuben<span class='pink-color'>09</span></div>
+                    <button class='toggle-button'>
+                        <span><i class='fas fa-bars'></i></span>
+                    </button>
+                    <ul class='navlinks'>
+                        <li class='links'><a href='#'>Home</a></li>
+                        <li class='links'><a href='#'>Service</a></li>
+                        <li class='links'><a href='#'>About</a></li>
+                        <li class='links'><a href='#'>Skills</a></li>
+                        <li class='links'><a href='#'>Portfolio</a></li>
+                        <li class='links'><a href='#'>Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        
+        <section class="home" id="home">
+            <div class="overrall-home-container">
+                <div class='overral-text-container'>
+                 <div class="big-text">
+                     <h1 class='home-h1'>Hello, I'm <span class='web-developer-text'>a Web developer</span></h1>
+                 </div>
+                 <div class="paragraph1">
+                     <p>fond of creating web application designs <span class='flex'>and bring them to live using
+                        code and  develop </span><span class='flex'>mobile designs</span> 
+                     </p>
+                 </div>
+                 <div class="button-container">
+                     <button>Creator journey</button>
+                 </div>
+                </div>
+                <div class='overral-image-container'>
+                    <img src="home-image.svg" class='svg-image'>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class='overrall-container'>
+                <div class='services-text'>
+                    <p>Services</p>
+                </div>
+                <div class='skill-set-text-h2'>
+                    <h1>Skill-Set</h1>
+                </div>
+                <div class='skill-set-line'>
+                    <span class='line'></span>
+                </div>
+                <div class='column-container'>
+                    <div class='column'>
+                        <div class='icon-container'>
+                            <i class="fab fa-sketch"></i>
+                        </div>
+                        <div class='skill-set-header'>
+                           <h1>App Design</h1>
+                        </div>
+                        <div class='skill-set-text'>
+                           <p> I work closely with user experience (UX) designers and user interface (UI) designers to apply their designs to mobile interfaces</p></div>
+                    </div>
+                    <div class='column'>
+                        <div class='icon-container'>
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class='skill-set-header'>
+                          <h1>Back-end Devepment</h1>
+                        </div>
+                        <div class='skill-set-text'>
+                            <p>creating, maintaining, testing, and debugging the entire back end. This includes the core application logic, databases, ...</p>
+                        </div>
+                    </div>
+                    <div class='column'>
+                        <div class='icon-container'>
+                            <i class="fab fa-connectdevelop"></i>
+                        </div>
+                        <div class='skill-set-header'>
+                         <h1>Web Development</h1>
+                        </div>
+                        <div class='skill-set-text'>
+                            <p>Proficient with html, Css and javascript to bring mock up designs to reality</p>
+                        </div>
+                    </div>
+                    <div class='column'>
+                        <div class='icon-container'>
+                            <i class="fas fa-random"></i>
+                        </div>
+                        <div class='skill-set-header'>
+                         <h1>Freelancing</h1>
+                        </div>
+                        <div class='skill-set-text'>
+                            <p>i have the ability to work with many clients and under pressure</p>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </section>
+
+        <section class='experience'>
+            <div class='experience-header'>
+                <h3>Zuri</h3>
+                <div class='zuri-image-container'>
+                <img src='zuri.png' alt='zuri'/>
+            </div>
+        </div>
+            <div class='experience-text'><p>I'm currently doing an internship programme with <a class='red' href='https://internship.zuri.team/'>https://internship.zuri.team/</a></span>
+            hoping to improve my skills and connect with skillful frontend developers like myself</p></div>
+        </section>
+
+        <section class='last-section'>
+            <div class='overrall-container'>
+                <form name="contact" method="POST" data-netlify="true" id='form'>
+                    <div class='form-header'>
+                        <h1>Connect With Me</h1>
+                    </div>
+                    <input  type="email" name="email" placeholder="Email">
+                    <input type='text' name="message" placeholder="Message">
+                    <button class='button-container-section' type='submit' id='submit'>
+                        <div class='button-text'><p>stay connected</p></div>
+                        <div class='button-icon-container'><i class="fas fa-play"></i></div>
+                    </button>
+                </form>
+            </div>
+        </section>
+        <script src='script.js'></script>
+    </body>
+</html>
